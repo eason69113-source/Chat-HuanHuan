@@ -1,3 +1,20 @@
+<!-- 徽章区 -->
+<p align="center">
+  <!-- 版本 -->
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/YOUR_USER/HuanHuan-Chat?style=flat-square">
+  <!-- License -->
+  <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square">
+  <!-- 显存卖点 -->
+  <img alt="VRAM" src="https://img.shields.io/badge/VRAM-%3C9GB-00b894?style=flat-square&logo=nvidia">
+  <!-- 模型 -->
+  <img alt="Model" src="https://img.shields.io/badge/Model-Llama--3.1--8B-ff6b6b?style=flat-square&logo=pytorch">
+  <!-- 框架 -->
+  <img alt="Framework" src="https://img.shields.io/badge/Framework-QLoRA-4a90e2?style=flat-square&logo=huggingface">
+  <!-- Python -->
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.12-3776ab?style=flat-square&logo=python">
+  <!-- Hugging Face -->
+  <a href="https://huggingface.co/YOUR_HF_USER/HuanHuan-Chat"><img alt="HF" src="https://img.shields.io/badge/%F0%9F%A4%97-Model%20Hub-yellow?style=flat-square"></a>
+</p>
 # 💃 Chat-HuanHuan · 嬛嬛问答  
 > 扮演皇帝身边的女人——甄嬛，陪你畅聊宫廷趣事。
 > 一张 **≤ 9 GB** 显存的消费卡就能完成 QLoRA 微调的中文宫廷角色扮演模型！  
