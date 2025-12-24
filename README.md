@@ -31,7 +31,7 @@
 |------|----------|----------|----------|-----------------|-----------------|----------|
 | 官方全量微调 | Llama-3-8B | Full Fine-tune | 16-bit | ≈ 160 GB | ≈ 16 GB | 2× A100 (80G) |
 | 标准 LoRA | Llama-3-8B | LoRA r=8 | 16-bit | ≈ 26–28 GB | ≈ 16 GB | RTX 3090/4090 |
-| **该项目** | Llama-3-8B | LoRA r=8 | **4-bit NF4** | **≈ 7.5–8.5 GB** ⭐ | **≈ 5.5–6.5 GB** ⭐ | **RTX 3060 12G ✅** |
+| **该项目** | Llama-3-8B | LoRA r=8 | **4-bit NF4** | **≈ 7.5–8.5 GB** ⭐ | **≈ 5.5–6.5 GB** ⭐ | **RTX 4070Ti 12G ✅** |
 
 ---
 
@@ -100,7 +100,7 @@ python inference.py
    ```bash
    python train.py
    ```
-   默认 3 epoch，单卡 A100(40G) 约 2 小时。  
+   默认 3 epoch，单卡 RTX 4070Ti 约 60 分钟。  
    训练完自动保存到 `./output/llama3_1_instruct_lora/checkpoint-xxx`
 
 ---
@@ -126,7 +126,7 @@ HuanHuan-Chat
 | 阶段 | 显存 | 备注 |
 |------|------|------|
 | 推理 | ≈ 6 GB | 4-bit 量化，单卡 3060 可跑 |
-| 训练 | ≈ 9 GB | RTX 3060 12G |
+| 训练 | ≈ 9 GB | RTX 4070Ti 12G |
 
 ---
 
