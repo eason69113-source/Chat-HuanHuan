@@ -1,0 +1,6 @@
+accelerate==1.12.0  
+datasets==2.20.0
+peft==0.18.0
+modelscope==1.16.1
+transformers==4.57.3
+bitsandbytes==0.49.0
